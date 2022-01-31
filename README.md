@@ -16,7 +16,7 @@ https://github.com/vtrevino/GALGO
 
 ## Load PLSRGA
 
-    source("plsrga.r")
+    source("PLSRGA.r")
 
 ## Perform analysis
 
