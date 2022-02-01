@@ -14,6 +14,8 @@ GALGO
 
 https://github.com/vtrevino/GALGO
 
+If you have trouble installing GALGO, you may install Microsoft R Open (version <= 3.5.3, https://mran.microsoft.com/release-history) and use `install.packages("galgo")` directly to install GALGO in Microsoft R Open.
+
 ## Load PLSRGA
 
     source("PLSRGA.r")
