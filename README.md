@@ -4,15 +4,31 @@ An R package for QTL mapping in hybrid population (diallel cross and NCII design
 
 ## Install dependencies
 
-pls
+### pls
 
 https://github.com/khliland/pls
 
 https://cran.r-project.org/web/packages/pls/index.html
 
-GALGO
+### GALGO
 
 https://github.com/vtrevino/GALGO
+
+Instructions for Windows
+
+Firstly, install needed packages by `install.packages(c("R.oo", "MASS", "class", "e1071", "rpart", "nnet", "randomForest"))`
+
+Secondly, install Rtools (https://cran.r-project.org/bin/windows/Rtools/history.html)
+
+Finally, install GALGO from the R console
+
+```
+Sys.setenv(BINPREF="C:/Local/rtools35/mingw_$(WIN)/bin/")
+Sys.setenv(PATH=paste("C:/Local/rtools35/bin", Sys.getenv("PATH"), sep=";"))
+install.packages("galgo_1.4.tar.gz", type="source")
+```
+
+Please change `C:/Local/rtools35/` to the Rtools installation path.
 
 If you have trouble installing GALGO, you may install Microsoft R Open (version <= 3.5.3, https://mran.microsoft.com/release-history) and use `install.packages("galgo")` directly to install GALGO in Microsoft R Open.
 
