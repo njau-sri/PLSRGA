@@ -20,7 +20,7 @@ Firstly, install needed packages by `install.packages(c("R.oo", "MASS", "class",
 
 Secondly, install Rtools (https://cran.r-project.org/bin/windows/Rtools/history.html)
 
-Finally, install GALGO from the R console
+Finally, install GALGO from the R console (tested on R 3.6.x)
 
 ```
 Sys.setenv(BINPREF="C:/Local/rtools35/mingw_$(WIN)/bin/")
